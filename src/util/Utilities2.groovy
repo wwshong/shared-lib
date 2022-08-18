@@ -4,6 +4,6 @@ class Utilities2 implements Serializable {
   Utilities2(steps) {this.steps = steps}
   def mvn(args) {
     steps.sh "echo Utilities2 arg = ${args}"
-	steps.sh "echo BUILD_ID=${BUILD_ID}"
+	steps.sh "echo BUILD_ID=${steps.BUILD_ID}"
   }
 }
