@@ -4,5 +4,7 @@ class Utilities {
     //script.sh "${script.tool 'Maven'}/bin/mvn -s ${script.env.HOME}/jenkins.xml -o ${args}"
 	println "script.env.HOME = ${script.env.HOME}"
 	println "args= ${args}"
+	
+	script.sh echo "echo script.env.HOME = ${script.env.HOME}"
   }
 }
