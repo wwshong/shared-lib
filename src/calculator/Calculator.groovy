@@ -12,4 +12,9 @@ class Calculator implements Serializable, ICalculator {
 	script.sh "echo script Adding ${a} to ${b}"
     return a + b
   }
+  
+  @Override
+  int subtract(int a, int b) {
+	return a-b
+  }
 }
