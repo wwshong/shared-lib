@@ -10,5 +10,7 @@ class Utilities2 implements Serializable {
 	
 	//in vars
 	helloWorldSimple("from class john", "Monday") 
+	
+	steps.echo "${steps.helloWorldSimple("from class john", "Monday") }"
   }
 }
