@@ -8,9 +8,6 @@ class Utilities2 implements Serializable {
     steps.sh "echo Utilities2 arg = ${args}"
 	steps.sh "echo BUILD_ID=${steps.BUILD_ID}"
 	
-	//in vars
-	helloWorldSimple("from class john", "Monday") 
 	
-	steps.echo "${steps.helloWorldSimple("from class john", "Monday") }"
   }
 }
