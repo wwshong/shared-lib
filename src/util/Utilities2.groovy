@@ -7,5 +7,8 @@ class Utilities2 implements Serializable {
   def mvn(args) {
     steps.sh "echo Utilities2 arg = ${args}"
 	steps.sh "echo BUILD_ID=${steps.BUILD_ID}"
+	
+	//in vars
+	helloWorldSimple("from class john", "Monday") 
   }
 }
