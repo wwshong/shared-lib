@@ -11,7 +11,7 @@ class Calculator implements Serializable, ICalculator {
 	
 	script.sh "echo script Adding ${a} to ${b}"
 	
-	println "src\calculator println Adding ${a} to ${b}"
+	println "src calculator println Adding ${a} to ${b}"
     return a + b
   }
   
