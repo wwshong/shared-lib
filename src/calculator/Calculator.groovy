@@ -7,6 +7,8 @@ class Calculator implements Serializable {
   int add(int a, int b) {
     // Note the script context is required for `echo`, as it is a pipeline step
     script.echo "Adding ${a} to ${b}"
+	
+	script.sh "echo script Adding ${a} to ${b}"
     return a + b
   }
 }
