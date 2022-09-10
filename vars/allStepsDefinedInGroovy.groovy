@@ -1,5 +1,5 @@
 def call(Map args) {
-    node() {
+    pipeline {
          stage("Compile") {
             steps {
                 echo "compile"
